@@ -6,7 +6,7 @@ if __name__ == '__main__':
     command1 = f"PowerShell -Command "f"Add-Type -AssemblyName System.Speech;(New-Object System.Speech.Synthesis.SpeechSynthesizer).Speak('{s}');"
     os.system(command1)
     while True:
-        x = input("Enter What Do You Want To Say")
+        x = input("Enter What Do You Want To S
         if x=='q':
             b = "bye bye friends"
             command2 = f"PowerShell -Command "f"Add-Type -AssemblyName System.Speech;(New-Object System.Speech.Synthesis.SpeechSynthesizer).Speak('{b}');"
