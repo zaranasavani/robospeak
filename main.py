@@ -1,3 +1,4 @@
+# for mac system there is one command speack()
 import os
 
 if __name__ == '__main__':
