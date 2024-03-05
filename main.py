@@ -1,3 +1,4 @@
+
 # import os
 #
 # if __name__ == '__main__':
@@ -27,9 +28,7 @@ if __name__=='__main__':
         x=input("Enter what you want to say:")
         if x=="q":
             b="bye bye frieds"
-            speak.Speak(b)
             break
-        speak.Speak(x)
 
 print("the end")
 
