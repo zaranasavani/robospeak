@@ -30,7 +30,7 @@ if __name__=='__main__':
             b="bye bye frieds"
             break
 
-print("the dev branch........")
+print("the dev branch......")
 
 
 
